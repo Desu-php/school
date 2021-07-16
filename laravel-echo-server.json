@@ -1,0 +1,37 @@
+{
+	"authHost": "http://lang-school.test",
+	"authEndpoint": "/api/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "APP_ID",
+			"key": "b3ff8383a53d0e4981aefe0388fda5aa"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "/var/www/httpd-cert/www-root/api-languagetogo.itway.bz_le3.crtca",
+	"sslKeyPath": "/var/www/httpd-cert/www-root/api-languagetogo.itway.bz_le3.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
